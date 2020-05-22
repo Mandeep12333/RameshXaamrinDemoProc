@@ -1,0 +1,15 @@
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/bin/Debug/netstandard2.0/MyTestApp.deps.json
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/bin/Debug/netstandard2.0/MyTestApp.dll
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/bin/Debug/netstandard2.0/ref/MyTestApp.dll
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/bin/Debug/netstandard2.0/MyTestApp.pdb
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/obj/Debug/netstandard2.0/MyTestApp.csprojAssemblyReference.cache
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/obj/Debug/netstandard2.0/MyTestApp.csproj.CoreCompileInputs.cache
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/obj/Debug/netstandard2.0/MyTestApp.AssemblyInfoInputs.cache
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/obj/Debug/netstandard2.0/MyTestApp.AssemblyInfo.cs
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/obj/Debug/netstandard2.0/MyTestApp.dll
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/obj/Debug/netstandard2.0/ref/MyTestApp.dll
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/obj/Debug/netstandard2.0/MyTestApp.pdb
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/obj/Debug/netstandard2.0/NoteEntryPage.xaml.g.cs
+/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/obj/Debug/netstandard2.0/NotesPage.xaml.g.cs

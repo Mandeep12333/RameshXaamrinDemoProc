@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{194C2172-AFE0-457D-ACAB-B4F36B0605BA}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyTestApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F8B65BC9-A69C-419E-A989-E3A1E2B241B7" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyTestApp/NotesPage.xaml.cs">
+    <Files>
+      <File FileName="MyTestApp/App.xaml.cs" Line="15" Column="32" />
+      <File FileName="MyTestApp/Models/Notes.cs" Line="19" Column="1" />
+      <File FileName="MyTestApp/NoteEntryPage.xaml.cs" Line="19" Column="41" />
+      <File FileName="MyTestApp/NotesPage.xaml.cs" Line="43" Column="2" />
+      <File FileName="MyTestApp/NotesPage.xaml" Line="4" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyTestApp" expanded="True">
+            <Node name="MyTestApp" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="NoteEntryPage.xaml" expanded="True" />
+              <Node name="NotesPage.xaml" expanded="True">
+                <Node name="NotesPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyTestApp.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
