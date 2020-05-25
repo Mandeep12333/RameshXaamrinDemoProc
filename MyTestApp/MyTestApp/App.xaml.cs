@@ -3,6 +3,7 @@ using System.IO;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MyTestApp.Data;
+using MyTestApp.Views;
 
 namespace MyTestApp
 {
@@ -28,8 +29,8 @@ namespace MyTestApp
         {
             InitializeComponent();
             FolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData));
-            //MainPage = new MainPage();
-            MainPage = new NavigationPage(new NotesPage());
+            //MainPage = new AppShell();
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp.iOS/MyTestApp.iOS.csproj": {}
+    "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp.iOS/MyTestApp.iOS.csproj": {}
   },
   "projects": {
-    "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp.iOS/MyTestApp.iOS.csproj": {
+    "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp.iOS/MyTestApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp.iOS/MyTestApp.iOS.csproj",
+        "projectUniqueName": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp.iOS/MyTestApp.iOS.csproj",
         "projectName": "MyTestApp.iOS",
-        "projectPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp.iOS/MyTestApp.iOS.csproj",
+        "projectPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp.iOS/MyTestApp.iOS.csproj",
         "packagesPath": "/Users/apple/.nuget/packages/",
-        "outputPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp.iOS/obj/",
+        "outputPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/MyTestApp.csproj": {
-                "projectPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/MyTestApp.csproj"
+              "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp/MyTestApp.csproj": {
+                "projectPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp/MyTestApp.csproj"
               }
             }
           }
@@ -59,14 +59,14 @@
         }
       }
     },
-    "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/MyTestApp.csproj": {
+    "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp/MyTestApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/MyTestApp.csproj",
+        "projectUniqueName": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp/MyTestApp.csproj",
         "projectName": "MyTestApp",
-        "projectPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/MyTestApp.csproj",
+        "projectPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp/MyTestApp.csproj",
         "packagesPath": "/Users/apple/.nuget/packages/",
-        "outputPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/obj/",
+        "outputPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/apple/.config/NuGet/NuGet.Config"
@@ -120,7 +120,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     }

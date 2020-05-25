@@ -133,4 +133,17 @@
       <Name>MyTestApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tab_about%402x.png" />
+    <BundleResource Include="Resources\tab_about%403x.png" />
+    <BundleResource Include="Resources\tab_feed%402x.png" />
+    <BundleResource Include="Resources\tab_feed%403x.png" />
+    <BundleResource Include="Resources\photo.jpg" />
+    <BundleResource Include="Resources\xamarin_logo%402x.png" />
+    <BundleResource Include="Resources\xamarinstore.jpg" />
+    <BundleResource Include="Resources\Dashboard%402x.png" />
+    <BundleResource Include="Resources\Dashboard%403x.png" />
+    <BundleResource Include="Resources\ConnectRequest.png" />
+    <BundleResource Include="Resources\Lecture.png" />
+  </ItemGroup>
 </Project>

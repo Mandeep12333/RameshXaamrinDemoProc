@@ -2173,11 +2173,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp.Android/MyTestApp.Android.csproj",
+      "projectUniqueName": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp.Android/MyTestApp.Android.csproj",
       "projectName": "MyTestApp.Android",
-      "projectPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp.Android/MyTestApp.Android.csproj",
+      "projectPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp.Android/MyTestApp.Android.csproj",
       "packagesPath": "/Users/apple/.nuget/packages/",
-      "outputPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp.Android/obj/",
+      "outputPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2192,8 +2192,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/MyTestApp.csproj": {
-              "projectPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/MyTestApp.csproj"
+            "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp/MyTestApp.csproj": {
+              "projectPath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp/MyTestApp.csproj"
             }
           }
         }

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyTestApp"
+             xmlns:views="clr-namespace:MyTestApp.Views"
+       FlyoutBackgroundImage="photo.jpg"
+       FlyoutBackgroundImageAspect="AspectFill"
+       FlyoutHeaderBehavior="CollapseOnScroll"
+       
+
+             x:Class="MyTestApp.AppShell">
+
+     <Shell.Resources>
+        <Style x:Key="BaseStyle"
+               TargetType="Element">
+            <Setter Property="Shell.BackgroundColor"
+                    Value="#455A64" />
+            <Setter Property="Shell.ForegroundColor"
+                    Value="White" />
+            <Setter Property="Shell.TitleColor"
+                    Value="White" />
+            <Setter Property="Shell.DisabledColor"
+                    Value="#B4FFFFFF" />
+            <Setter Property="Shell.UnselectedColor"
+                    Value="#95FFFFFF" />
+        </Style>
+        <Style TargetType="ShellItem"
+               BasedOn="{StaticResource BaseStyle}" />
+        <Style x:Key="DomesticShell"
+               TargetType="Element"
+               BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Shell.BackgroundColor"
+                    Value="#039BE6" />
+        </Style>
+        <Style x:Key="MonkeysShell"
+               TargetType="Element"
+               BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Shell.BackgroundColor"
+                    Value="#689F39" />
+        </Style>
+        <Style x:Key="ElephantsShell"
+               TargetType="Element"
+               BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Shell.BackgroundColor"
+                    Value="#ED3B3B" />
+        </Style>
+        <Style x:Key="BearsShell"
+               TargetType="Element"
+               BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Shell.BackgroundColor"
+                    Value="#546DFE" />
+        </Style>
+        <Style x:Key="AboutShell"
+               TargetType="Element"
+               BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Shell.BackgroundColor"
+                    Value="#96d1ff" />
+        </Style>
+    </Shell.Resources>
+
+    <Shell.FlyoutHeader>
+        <ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             HeightRequest="200">
+        <Grid BackgroundColor="Black">
+        <Image Aspect="AspectFill"
+               Source="xamarinstore.jpg"
+               Opacity="0.6" />
+        <Label Text="Animals"
+               TextColor="White"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+        </Grid>
+        </ContentView>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+    <Tab Title="Home" Icon="tab_about.png">
+        <ShellContent
+            Title="Home1"
+            ContentTemplate="{DataTemplate local:NoteEntryPage}"
+            Icon="tab_feed.png" />
+    </Tab>
+    <ShellContent
+        Title="Info"
+        ContentTemplate="{DataTemplate local:NoteEntryPage}"
+        Icon="tab_about.png" />
+    <ShellContent
+        Title="Settings"
+        ContentTemplate="{DataTemplate local:NotesPage}"
+        Icon="tab_feed.png" />
+</FlyoutItem>
+
+    <!--<FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Icon="tab_about.png" Title="My Notes" Style="{StaticResource  BaseStyle}">
+        <ShellContent 
+                  ContentTemplate="{DataTemplate local:NotesPage}" />
+        <Tab Title="Contact" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:NotesPage}"/>
+            <ShellContent Title="General" ContentTemplate="{DataTemplate local:NotesPage}"/>
+            <ShellContent Title="FAQs" ContentTemplate="{DataTemplate local:NoteEntryPage}"/>
+            <ShellContent Title="Feedback" ContentTemplate="{DataTemplate local:NotesPage}"/>
+
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Icon="tab_feed.png" Title="My NotesEntery" Style="{StaticResource  BaseStyle}">
+        <ShellContent 
+                  ContentTemplate="{DataTemplate local:NoteEntryPage}" />
+    </FlyoutItem>-->
+
+    <!--<TabBar>
+        <Tab Title="Home" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:NotesPage}"/>
+        </Tab>
+        <Tab Title="Library" Icon="tab_feed.png">
+            <ShellContent ContentTemplate="{DataTemplate local:NoteEntryPage}"/>
+        </Tab>
+        <Tab Title="Contact" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:NotesPage}"/>
+            <ShellContent Title="General" ContentTemplate="{DataTemplate local:NotesPage}"/>
+            <ShellContent Title="FAQs" ContentTemplate="{DataTemplate local:NoteEntryPage}"/>
+            <ShellContent Title="Feedback" ContentTemplate="{DataTemplate local:NotesPage}"/>
+
+        </Tab>
+    </TabBar>-->
+
+    
+    
+
+
+</Shell>

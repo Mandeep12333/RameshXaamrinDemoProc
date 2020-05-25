@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "iMSAZvm8/RgyZK2Vyv4St7N2orx6P+8uuqse/IqNtzl3Oy7lgGsI2PB4aY56DWSFUCMPcSiHkyKWTuU3b+W1Gg==",
+  "success": true,
+  "projectFilePath": "/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp.iOS/MyTestApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/apple/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "/Users/apple/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "/Users/apple/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "/Users/apple/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/apple/.nuget/packages/xamarin.essentials/1.3.1/xamarin.essentials.1.3.1.nupkg.sha512",
+    "/Users/apple/.nuget/packages/xamarin.forms/4.4.0.991265/xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

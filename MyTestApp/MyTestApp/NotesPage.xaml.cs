@@ -23,10 +23,15 @@ namespace MyTestApp
 
         async void OnNoteAddedClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new NoteEntryPage
-            {
-                BindingContext = new Notes()
-            });
+            // Go to Vendor Screen//
+            string URL = $"NotesEntry";
+            // This works because route names are unique in this application.
+            await Shell.Current.GoToAsync(URL);
+
+            //await Navigation.PushAsync(new NoteEntryPage
+            //{
+            //    BindingContext = new Notes()
+            //});
         }
 
         async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)

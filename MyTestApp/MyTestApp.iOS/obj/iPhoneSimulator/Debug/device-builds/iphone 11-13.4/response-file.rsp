@@ -1,19 +1,19 @@
-"--cache=/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache"
-"--sim=/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/MyTestApp.iOS.app"
+"--cache=/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache"
+"--sim=/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/MyTestApp.iOS.app"
 --executable=MyTestApp.iOS
- --debug
- --sgen-conc
- --nolink
+--debug
+--sgen-conc
+--nolink
 --sdkroot=/Applications/Xcode.app/Contents/Developer
 --sdk=13.4
 --targetver=8.0
- --aot-options=-O=-float32
- --http-message-handler=NSUrlSessionHandler
- --abi=x86_64
-"--symbollist=/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-symbols.list"
- --dsym=no
+--aot-options=-O=-float32
+--http-message-handler=NSUrlSessionHandler
+--abi=x86_64
+"--symbollist=/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-symbols.list"
+--dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
--r=/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/bin/Debug/netstandard2.0/MyTestApp.dll
+-r=/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp/bin/Debug/netstandard2.0/MyTestApp.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
@@ -209,6 +209,6 @@
 -r=/Users/apple/.nuget/packages/xamarin.forms/4.4.0.991265/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/apple/.nuget/packages/xamarin.forms/4.4.0.991265/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/apple/.nuget/packages/xamarin.forms/4.4.0.991265/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp/bin/Debug/netstandard2.0/MyTestApp.dll
- --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/apple/Ramesh/Application/Xamrin/MyTestApp/MyTestApp.iOS/bin/iPhoneSimulator/Debug/MyTestApp.iOS.exe
+-r=/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp/bin/Debug/netstandard2.0/MyTestApp.dll
+--target-framework=Xamarin.iOS,v1.0
+--root-assembly=/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp.iOS/bin/iPhoneSimulator/Debug/MyTestApp.iOS.exe
