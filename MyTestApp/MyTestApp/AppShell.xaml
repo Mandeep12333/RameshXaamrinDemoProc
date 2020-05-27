@@ -7,7 +7,6 @@
        FlyoutBackgroundImageAspect="AspectFill"
        FlyoutHeaderBehavior="CollapseOnScroll"
        
-
              x:Class="MyTestApp.AppShell">
 
      <Shell.Resources>
@@ -83,9 +82,15 @@
             ContentTemplate="{DataTemplate local:NoteEntryPage}"
             Icon="tab_feed.png" />
     </Tab>
+
+     <ShellContent Route="cats"
+                          Style="{StaticResource DomesticShell}"
+                          Title="Cats"
+                          Icon="tab_feed.png"
+                          ContentTemplate="{DataTemplate views:CatView}" />
     <ShellContent
         Title="Info"
-        ContentTemplate="{DataTemplate local:NoteEntryPage}"
+        ContentTemplate="{DataTemplate views:CatView}"
         Icon="tab_about.png" />
     <ShellContent
         Title="Settings"

@@ -7,6 +7,7 @@ using MyTestApp.Models;
 
 namespace MyTestApp
 {
+
     public partial class NotesPage : ContentPage
     {
         public NotesPage()
@@ -27,7 +28,7 @@ namespace MyTestApp
             string URL = $"NotesEntry";
             // This works because route names are unique in this application.
             await Shell.Current.GoToAsync(URL);
-
+            
             //await Navigation.PushAsync(new NoteEntryPage
             //{
             //    BindingContext = new Notes()
@@ -38,10 +39,12 @@ namespace MyTestApp
         {
             if (e.SelectedItem != null)
             {
-                await Navigation.PushAsync(new NoteEntryPage
-                {
-                    BindingContext = e.SelectedItem as Notes
-                });
+                await Shell.Current.GoToAsync($"NotesEntry?name=Ramesh");
+                
+                //await Navigation.PushAsync(new NoteEntryPage
+                //{
+                //    BindingContext = e.SelectedItem as Notes
+                //});
             }
         }
     }

@@ -1,23 +1,25 @@
 ﻿<Properties StartupConfiguration="{194C2172-AFE0-457D-ACAB-B4F36B0605BA}|Default">
   <MonoDevelop.Ide.ItemProperties.MyTestApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F8B65BC9-A69C-419E-A989-E3A1E2B241B7" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyTestApp/AppShell.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyTestApp/Views/CatView.xaml">
     <Files>
-      <File FileName="MyTestApp/NoteEntryPage.xaml.cs" Line="25" Column="10" />
-      <File FileName="MyTestApp/NotesPage.xaml.cs" Line="41" Column="17" />
-      <File FileName="MyTestApp/AppShell.xaml.cs" Line="40" Column="10" />
-      <File FileName="MyTestApp/AppShell.xaml" Line="8" Column="47" />
-      <File FileName="MyTestApp/ViewModels/LoginViewModel.cs" Line="2" Column="21" />
+      <File FileName="MyTestApp/AppShell.xaml" Line="92" Column="21" IsPinned="True" />
+      <File FileName="MyTestApp/Views/CatView.xaml" Line="54" Column="43" />
+      <File FileName="MyTestApp/Views/CatView.xaml.cs" />
+      <File FileName="MyTestApp/ViewModels/CatViewModel.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MyTestApp" expanded="True">
             <Node name="MyTestApp" expanded="True">
-              <Node name="Controls" expanded="True">
-                <Node name="FlyoutHeader.xaml" expanded="True" />
-              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="ViewModels" expanded="True" />
-              <Node name="AppShell.xaml" expanded="True" selected="True" />
+              <Node name="Views" expanded="True">
+                <Node name="CatView.xaml" expanded="True" selected="True" />
+              </Node>
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="NoteEntryPage.xaml" expanded="True" />
               <Node name="NotesPage.xaml" expanded="True" />
             </Node>
             <Node name="MyTestApp.iOS" expanded="True">
@@ -32,7 +34,11 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp/Data/CatData.cs" relfile="MyTestApp/Data/CatData.cs" line="10" column="1" />
+      <Breakpoint file="/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp/ViewModels/CatViewModel.cs" relfile="MyTestApp/ViewModels/CatViewModel.cs" line="16" column="1" />
+      <Breakpoint file="/Users/apple/Ramesh/Application/Xamrin/MyTestApp/RameshXaamrinDemoProc/MyTestApp/MyTestApp/ViewModels/CatViewModel.cs" relfile="MyTestApp/ViewModels/CatViewModel.cs" line="49" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

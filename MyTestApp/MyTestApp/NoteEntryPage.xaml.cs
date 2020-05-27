@@ -4,13 +4,33 @@ using MyTestApp.Models;
 using System.IO;
 using Xamarin.Forms;
 
+
 namespace MyTestApp
 {
+    [QueryProperty("Name", "name")]
     public partial class NoteEntryPage : ContentPage
     {
+
+        public string Name
+        {
+            set
+            {
+                Console.WriteLine(Uri.UnescapeDataString(value));
+                //entryEntry.Text = Uri.UnescapeDataString(value);
+            }
+        }
+
+
         public NoteEntryPage()
         {
             InitializeComponent();
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            
+
         }
 
         async void OnSaveButtonClicked(object sender, EventArgs e)
